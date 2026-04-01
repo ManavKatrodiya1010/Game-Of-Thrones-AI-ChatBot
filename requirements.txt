@@ -1,0 +1,15 @@
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-groq
+langchain-huggingface
+faiss-cpu
+pypdf
+python-dotenv
+streamlit
+sentence-transformers
+transformers
+torch
+
+# Python 3.11 recommended #
