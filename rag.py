@@ -3,7 +3,6 @@ import glob
 from dotenv import load_dotenv
 
 load_dotenv()
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
 
 import torch
 from langchain_community.document_loaders import PyPDFLoader
@@ -227,5 +226,5 @@ if __name__ == "__main__":
     print("  ASOIAF Vector DB Builder")
     print("=" * 55)
     print("\nBuilding vector database from all books in books/ ...\n")
-    # create_db()
+    create_db()
     print("\n✅ Done! You can now run:  streamlit run app.py\n")
